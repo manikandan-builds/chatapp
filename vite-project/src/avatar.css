@@ -1,0 +1,53 @@
+/* avatar.css */
+
+.avatar-container {
+     width: 32px;
+     height: 32px;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     position: relative;
+     justify-content: center;
+     font-weight: bold;
+     font-size: 14px;
+   }
+   
+   /* Text inside avatar */
+   .avatar-text {
+     opacity: 0.7;
+     text-align: center;
+     width: 100%;
+   }
+   
+   /* Status indicator */
+   .status-indicator {
+     position: absolute;
+     width: 12px;
+     height: 12px;
+     border-radius: 50%;
+     bottom: 0;
+     right: 0;
+     border: 2px solid white;
+   }
+   
+   .status-indicator.online {
+     background-color: #22c55e; /* green */
+   }
+   
+   .status-indicator.offline {
+     background-color: #9ca3af; /* gray */
+   }
+   
+   /* Background color classes */
+   .avatar-teal { background-color: #99f6e4; }
+   .avatar-red { background-color: #fecaca; }
+   .avatar-green { background-color: #bbf7d0; }
+   .avatar-purple { background-color: #e9d5ff; }
+   .avatar-blue { background-color: #bfdbfe; }
+   .avatar-yellow { background-color: #fef9c3; }
+   .avatar-orange { background-color: #fed7aa; }
+   .avatar-pink { background-color: #fbcfe8; }
+   .avatar-fuchsia { background-color: #f5d0fe; }
+   .avatar-rose { background-color: #fecdd3; }
+   
+

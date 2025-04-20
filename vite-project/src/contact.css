@@ -1,0 +1,35 @@
+/* contact.css */
+
+.contact-item {
+     display: flex;
+     align-items: center;
+     border-bottom: 1px solid #f3f4f6;
+     cursor: pointer;
+     position: relative;
+   }
+   
+   .contact-item.selected {
+     background-color: #eff6ff;
+   }
+   
+   .selection-bar {
+     width: 4px;
+     height: 48px;
+     background-color: #3b82f6;
+     border-top-right-radius: 6px;
+     border-bottom-right-radius: 6px;
+     margin-right: 4px;
+   }
+   
+   .contact-inner {
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     padding: 8px 12px;
+   }
+   
+   .contact-name {
+     color: #1f2937;
+     font-size: 14px;
+   }
+   
