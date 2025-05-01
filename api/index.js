@@ -31,7 +31,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
   credentials: true,
-  origin: "https://chatapp-2-4t0s.onrender.com",
+  origin: "https://chatapp-frontend-4d2r.onrender.com "|| process.env.CLIENT_URL,
 }));
 
 // Root route for sanity check
